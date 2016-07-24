@@ -1,0 +1,9 @@
+C:\Users\justi\Desktop\BuryRAR\BuryRAR\bin\Debug\BuryRAR.exe.config
+C:\Users\justi\Desktop\BuryRAR\BuryRAR\bin\Debug\BuryRAR.exe
+C:\Users\justi\Desktop\BuryRAR\BuryRAR\bin\Debug\BuryRAR.pdb
+C:\Users\justi\Desktop\BuryRAR\BuryRAR\obj\Debug\BuryRAR.csprojResolveAssemblyReference.cache
+C:\Users\justi\Desktop\BuryRAR\BuryRAR\obj\Debug\BuryRAR.buryRAR.resources
+C:\Users\justi\Desktop\BuryRAR\BuryRAR\obj\Debug\BuryRAR.Properties.Resources.resources
+C:\Users\justi\Desktop\BuryRAR\BuryRAR\obj\Debug\BuryRAR.csproj.GenerateResource.Cache
+C:\Users\justi\Desktop\BuryRAR\BuryRAR\obj\Debug\BuryRAR.exe
+C:\Users\justi\Desktop\BuryRAR\BuryRAR\obj\Debug\BuryRAR.pdb
