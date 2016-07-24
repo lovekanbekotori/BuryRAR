@@ -39,6 +39,7 @@
             this.buryRarBtn = new System.Windows.Forms.Button();
             this.rarFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.baseFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.githubOpen = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // rarFileTxtBox
@@ -130,11 +131,24 @@
             // 
             this.baseFileDialog.FileName = "Base File";
             // 
+            // githubOpen
+            // 
+            this.githubOpen.AutoSize = true;
+            this.githubOpen.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.githubOpen.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.githubOpen.Location = new System.Drawing.Point(98, 124);
+            this.githubOpen.Name = "githubOpen";
+            this.githubOpen.Size = new System.Drawing.Size(124, 13);
+            this.githubOpen.TabIndex = 9;
+            this.githubOpen.Text = "Visit BuryRAR on GitHub";
+            this.githubOpen.Click += new System.EventHandler(this.githubOpen_Click);
+            // 
             // buryRAR
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(312, 126);
+            this.ClientSize = new System.Drawing.Size(312, 143);
+            this.Controls.Add(this.githubOpen);
             this.Controls.Add(this.buryRarBtn);
             this.Controls.Add(this.newFileTxtBox);
             this.Controls.Add(this.label3);
@@ -166,6 +180,7 @@
         private System.Windows.Forms.Button buryRarBtn;
         private System.Windows.Forms.OpenFileDialog rarFileDialog;
         private System.Windows.Forms.OpenFileDialog baseFileDialog;
+        private System.Windows.Forms.Label githubOpen;
     }
 }
 

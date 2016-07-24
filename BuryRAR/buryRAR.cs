@@ -64,5 +64,10 @@ namespace BuryRAR
                 + "!", "BuryRAR", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         private void buryRAR_Load(object sender, EventArgs e) { }
+
+        private void githubOpen_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/sufficey/BuryRAR/");
+        }
     }
 }
